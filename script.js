@@ -73,7 +73,7 @@ function play(){
         bird_dy = bird_dy + grativy;
         document.addEventListener('keydown', (e) => {
             if(e.key == 'ArrowUp' || e.key == ' '){
-                img.src = 'Bird-2.png';
+                img.src = 'Bird-2(1).png';
                 bird_dy = -7.6;
             }
         });
