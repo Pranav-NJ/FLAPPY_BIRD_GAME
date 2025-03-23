@@ -1,8 +1,8 @@
 let move_speed = 3, grativy = 0.5;
 let bird = document.querySelector('.bird');
 let img = document.getElementById('bird-1');
-let sound_point = new Audio('sounds effect/point.mp3');
-let sound_die = new Audio('sounds effect/die.mp3');
+let sound_point = new Audio('point.mp3');
+let sound_die = new Audio('die.mp3');
 
 // getting bird element properties
 let bird_props = bird.getBoundingClientRect();
